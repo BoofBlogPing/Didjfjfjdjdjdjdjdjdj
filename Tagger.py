@@ -28,12 +28,12 @@ async def start(event):
                     buttons=(
                    
 		      [Button.url('➕ Məni Qrupa Sal ➕', 'https://t.me/KMChatBot?startgroup=a'),
-                      [Button.url('Sahibim👨‍💻', 'https://t.me/Leytenant_85')] 
-                      [Button.url('Sahibəm👩‍💻', 'https://t.me/Tibb_bacisi')]
-                      [Button.url('Qurup 📢', 'https://t.me/sohbet_mekani_KM')]
-                      [Button.url('Kanal 🛠️', 'https://t.me/kohne_mekan_kanal')]
-                      [Button.url('K.M Music Bot 🎧', 'https://t.me/KohneMekanMusicBot')] 
-                      [Button.url('K.M Nəzarət Bot 🛡️', 'https://t.me/KohneMekanNezaretBot')] 
+                      [Button.url('Sahibim👨‍💻', 'https://t.me/Leytenant_85')], 
+                      [Button.url('Sahibəm👩‍💻', 'https://t.me/Tibb_bacisi')], 
+                      [Button.url('Qurup 📢', 'https://t.me/sohbet_mekani_KM')], 
+                      [Button.url('Kanal 🛠️', 'https://t.me/kohne_mekan_kanal')], 
+                      [Button.url('K.M Music Bot 🎧', 'https://t.me/KohneMekanMusicBot')], 
+                      [Button.url('K.M Nəzarət Bot 🛡️', 'https://t.me/KohneMekanNezaretBot')], 
                        ),
                         link_preview=False
                    )
@@ -43,12 +43,11 @@ async def help(event):
   await event.reply(helptext,
                     buttons=(
                       [Button.url('➕ Məni Qrupa Sal ➕', 'https://t.me/KMChatBot?startgroup=a'),
-                      [Button.url('Sahibim👨‍💻', 'https://t.me/Leytenant_85')]                 
-                      [Button.url('Sahibəm👩‍💻', 'https://t.me/Tibb_bacisi')]                   
-                      [Button.url('Qurup 📢', 'https://t.me/sohbet_mekani_KM')]                
-                      [Button.url('Kanal 🛠️', 'https://t.me/kohne_mekan_kanal')]
-                      [Button.url('K.M Music Bot 🎧', 'https://t.me/KohneMekanMusicBot')] 
-                      [Button.url('K.M Nəzarət Bot 🛡️', 'https://t.me/KohneMekanNezaretBot')]     
+                      [Button.url('Sahibim👨‍💻', 'https://t.me/Leytenant_85')],                
+                      [Button.url('Sahibəm👩‍💻', 'https://t.me/Tibb_bacisi')],                                        [Button.url('Qurup 📢', 'https://t.me/sohbet_mekani_KM')],               
+                      [Button.url('Kanal 🛠️', 'https://t.me/kohne_mekan_kanal')], 
+                      [Button.url('K.M Music Bot 🎧', 'https://t.me/KohneMekanMusicBot')], 
+                      [Button.url('K.M Nəzarət Bot 🛡️', 'https://t.me/KohneMekanNezaretBot')], 
                     ),
                     link_preview=False
                    )
